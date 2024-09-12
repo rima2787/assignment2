@@ -1,5 +1,6 @@
 .shape {
-    font-family: "Miami", sans-serif;
+    /* font-family: "miami", sans-serif; */
+    font-family: cursive;
     font-size: 4rem;
 }
 
@@ -20,8 +21,9 @@ header {
     color: #e6533c;
     font-size: 2rem;
     font-weight: 800;
-    margin-left: 20px;
-    align-items: flex-start;
+    margin-right: 50px;
+    display: flex;
+    align-items: start;
 
 
 }
