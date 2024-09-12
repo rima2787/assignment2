@@ -409,10 +409,11 @@ table tr td {
     margin-top: 15px;
 }
 
-
+/* footer section */
 footer {
     background-color: #191919;
-    height: 78vh;
+    height: 400px;
+    margin: 0px,20px,0px,20px;
 
 }
 
@@ -420,8 +421,8 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    gap: 5.5rem;
-    height: 70vh;
+    gap: 80px;
+    height: 350px;
 }
 
 .fitness-text h3 {
@@ -431,7 +432,6 @@ footer {
 }
 
 .fitness-text p {
-    line-height: 1.3rem;
     margin: 10px 0;
 }
 
@@ -453,7 +453,7 @@ footer {
     margin-top: 10px;
 }
 
-/* respo */
+/* responsive  */
 @media screen and (max-width: 576px) {
 
     .btn-first,
