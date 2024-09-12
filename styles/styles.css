@@ -199,6 +199,7 @@ header {
 .habit p {
     color: #7f7f7f;
 }
+
 /* Run Extra mile */
 .run-extra-mile {
     background-color: #000000;
@@ -241,6 +242,82 @@ header {
     border-radius: 20px;
 }
 
+/* unique section */
+
+.fitness-title{
+    color: white;
+    margin: 50px;
+    font-weight: 800;
+    font-size: xx-large;
+    text-align: center;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+.fitness-card {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    gap: 15px;
+}
+
+.image-section img {
+    width: 80%;
+    height: auto;
+}
+
+.details-section {
+    background-color: #1e1e2d;
+    color: white;
+    padding: 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.details-section h3 {
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.details-section ul {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.details-section ul li {
+    margin-bottom: 20px;
+}
+
+.details-section ul li strong {
+    font-weight: 500;
+}
+
+.book-btn {
+    background-color: #ff3d3d;
+    color: white;
+    padding: 15px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.book-btn:hover {
+    background-color: #ff5e5e;
+}
+
 /* BMI section */
 .bmi {
     width: 400px;
@@ -249,9 +326,10 @@ header {
     margin-bottom: 40px;
     text-align: center;
 }
+
 .bmi p {
     margin-top: 10px;
-  }
+}
 
 .bmi-calculator-chart {
     width: 50%;
@@ -280,7 +358,8 @@ table tr td {
     background: #222222;
     padding: 5rem;
 }
-.form{
+
+.form {
     margin-top: 20px;
 }
 
@@ -545,6 +624,22 @@ footer {
         width: 100%;
     }
 
+    .fitness-card {
+        flex-direction: column;
+    }
+
+    .details-section {
+        text-align: center;
+        /* align-items: center; */
+        padding: 10px;
+        /* margin-left: 15px; */
+        /* margin-right: 15px; */
+    }
+
+    .book-btn {
+        width: 100%;
+    }
+
     .team-content {
         grid-template-columns: repeat(1, 1fr);
     }
@@ -561,10 +656,6 @@ footer {
     }
 
     .bmi-calculator-chart {
-        width: 100%;
-    }
-
-    .testimonial-content p {
         width: 100%;
     }
 
