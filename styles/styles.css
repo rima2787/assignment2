@@ -243,12 +243,15 @@ header {
 }
 
 /* BMI section */
-.BMI {
+.bmi {
     width: 400px;
     margin: 0 auto;
     margin-top: 50px;
     margin-bottom: 40px;
 }
+.bmi p {
+    margin-top: 10px;
+  }
 
 .bmi-calculator-chart {
     width: 50%;
@@ -271,10 +274,6 @@ table tr th {
 table tr td {
     padding-left: 10px;
 }
-
-/* .bmi p {
-    margin-top: 10px;
-} */
 
 .bmi-calculator-weight {
     margin-top: 20px;
